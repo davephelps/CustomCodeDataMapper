@@ -1,0 +1,7 @@
+$version: 1
+$input: JSON
+$output: JSON
+$sourceSchema: sum_input.json
+$targetSchema: sum_out.json
+root:
+  Total: rowCount

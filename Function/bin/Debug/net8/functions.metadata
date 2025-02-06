@@ -1,0 +1,19 @@
+[
+  {
+    "name": "TestFunc",
+    "scriptFile": "TestFunc.dll",
+    "entryPoint": "DP.TestFunc.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "zipCode",
+        "direction": "In",
+        "type": "workflowActionTrigger",
+        "properties": {}
+      }
+    ]
+  }
+]
